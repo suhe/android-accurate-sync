@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/time_login"
+        android:text="12/10/1200 12:00:00"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/calender_28x28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/time_logout"
+        android:text="12/10/1200 13:00:00"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/calender_28x28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_login"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="1dip"
+        />
+</RelativeLayout>
